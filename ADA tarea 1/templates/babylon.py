@@ -4,14 +4,15 @@ from itertools import *
 MAX = 35
 blocks = [None for i in range(MAX)]
 
- def solve():
+def solve():
   b=[]
   for i in (blocks):
     a=[blocks[0],blocks[2],blocks[1]]
     b=[blocks[2],blocks[0],blocks[1]]
     c=[blocks[2],blocks[1],blocks[0]]
     d=[blocks[1],blocks[0],blocks[2]]
-    e=[blocks[1],blocks[2],blocks[0]]
+  return b
+
 
 def main():
   n = int(stdin.readline().strip())
