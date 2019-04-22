@@ -21,7 +21,7 @@ def main():
     for i in range(n):
       x, y, z = map(int, stdin.readline().strip().split())
       blocks.append((x, y, z))
-    #ans = solve()
+    ans = solve()
     print('Case {0}: maximum height = {1}'.format(case, ans))
     n = int(stdin.readline().strip())
     case += 1
